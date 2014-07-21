@@ -3,14 +3,13 @@
 // @namespace      http://d.hatena.ne.jp/zaknak/20080909/1220936155
 // @include        http://reader.livedoor.com/reader/*
 // @include        http://fastladder.com/reader/*
-// @version        0.0.12
+// @version        0.1.0
 // @grant none
 // ==/UserScript==
 
 var w = window;
 
 var ldrNg = {
-
     //NG条件に一致したときタイトルを置き換える文字列
     ngTitle: 'NG Item',
 
@@ -163,3 +162,4 @@ var ldrNg = {
 };
 
 ldrNg.init();
+

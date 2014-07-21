@@ -1,0 +1,25 @@
+{
+  "name": "LDR-NG",
+  "description": "livedoor Reader ã§ NG word ãã£ã«ã¿ã¼ ãå®ç¾ãã Greasemonkey",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/LDR-NG/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/LDR-NG.git"
+  },
+  "main": "ldr_ng.user.js",
+  "scripts": {
+    "watch": "catw *.user.js -o `git config greasemonkey.file`"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/LDR-NG/issues"
+  },
+  "devDependencies": {
+    "catw": "^0.2.0"
+  }
+}
