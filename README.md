@@ -6,7 +6,7 @@ Original [livedoor Reader で NG word フィルター を実現する Greasemonk
 
 ## Installation
 
-Install from [ldr_ng.user.js](raw/master/ldr_ng.user.js)
+Install from [ldr_ng.user.js](/ldr_ng.user.js)
 
 ## Usage
 
